@@ -1,36 +1,35 @@
 apiVersion: v1
 entries:
   ehrbase:
-    - apiVersion: v2
-      appVersion: 2.12.0
-      created: "2025-02-11T14:08:13.634101+01:00"
-      dependencies:
-        - condition: postgresql.enabled
-          name: postgresql
-          repository: oci://registry-1.docker.io/bitnamicharts
-          version: 15.x.x
-        - condition: redis.enabled
-          name: redis
-          repository: oci://registry-1.docker.io/bitnamicharts
-          version: 20.x.x
-      description:
-        EHRbase is an open source software backend for clinical application
-        systems and electronic health records.
-      digest: e4107761ee94df66dfb3d60877faa8418ef499ebdf4e7cd5f72cfdcd62e8685e
-      home: https://github.com/konateq/ehrbase-helm-chart
-      keywords:
-        - ehrbase
-        - openehr
-        - ehr
-      kubeVersion: ">=1.26"
-      maintainers:
-        - name: Konateq
-          url: https://konateq.com
-      name: ehrbase
-      sources:
-        - https://github.com/konateq/ehrbase-helm-chart/tree/main/charts/ehrbase
-      type: application
-      urls:
-        - https://num-forschungsdatenplattform.github.io/ehrbase-helm-chart/charts/ehrbase-1.2.0.tgz
-      version: 1.2.0
-generated: "2025-02-11T14:08:13.623979+01:00"
+  - apiVersion: v2
+    appVersion: 2.12.0
+    created: "2025-02-11T14:48:21.88744+01:00"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 15.x.x
+    - condition: redis.enabled
+      name: redis
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 20.x.x
+    description: EHRbase is an open source software backend for clinical application
+      systems and electronic health records.
+    digest: e4107761ee94df66dfb3d60877faa8418ef499ebdf4e7cd5f72cfdcd62e8685e
+    home: https://github.com/konateq/ehrbase-helm-chart
+    keywords:
+    - ehrbase
+    - openehr
+    - ehr
+    kubeVersion: '>=1.26'
+    maintainers:
+    - name: Konateq
+      url: https://konateq.com
+    name: ehrbase
+    sources:
+    - https://github.com/konateq/ehrbase-helm-chart/tree/main/charts/ehrbase
+    type: application
+    urls:
+    - https://num-forschungsdatenplattform.github.io/ehrbase-helm-chart/ehrbase-1.2.0.tgz
+    version: 1.2.0
+generated: "2025-02-11T14:48:21.877631+01:00"
