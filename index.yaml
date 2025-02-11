@@ -31,6 +31,6 @@ entries:
         - https://github.com/konateq/ehrbase-helm-chart/tree/main/charts/ehrbase
       type: application
       urls:
-        - https://github.com/NUM-Forschungsdatenplattform/ehrbase-helm-chart/charts/ehrbase-1.2.0.tgz
+        - https://num-forschungsdatenplattform.github.io/ehrbase-helm-chart/ehrbase-1.2.0.tgz
       version: 1.2.0
 generated: "2025-02-11T14:08:13.623979+01:00"
